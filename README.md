@@ -17,25 +17,20 @@
    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="nav">
-
       <ul class="navbar-nav me-auto">
         <li class="nav-item"><a class="nav-link active" href="Bootstrap.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
         <li class="nav-item"><a class="nav-link" href="price.html">Price</a></li>
         <li class="nav-item"><a class="nav-link" href="faqs.html">Contact</a></li>
       </ul>
-
       <form class="d-flex me-3">
         <input class="form-control me-2" type="search" placeholder="Search">
         <button class="btn btn-outline-light" type="submit">Search</button>
       </form>
-
       <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
         Login
       </button>
-
     </div>
   </div>
 </nav>
