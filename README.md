@@ -14,7 +14,7 @@
   <div class="container">
     <a class="navbar-brand" href="Bootstrap.html">MySite</a>
 
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+   <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -43,15 +43,12 @@
 <!-- CAROUSEL -->
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
-
     <div class="carousel-item active">
       <img src="https://images.unsplash.com/photo-1775401152739-662f585e4360?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" height="400">
     </div>
-
     <div class="carousel-item">
       <img src="https://images.unsplash.com/photo-1770041797744-59e295885e8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" height="400">
     </div>
-
     <div class="carousel-item">
       <img src="https://images.unsplash.com/photo-1770917279526-48e205f8ec9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" height="400">
     </div>
@@ -71,21 +68,18 @@
 <div class="container my-5 text-center">
   <h2 class="mb-4">Our Features</h2>
   <div class="row g-4">
-
     <div class="col-md-4">
       <div class="p-4 border rounded shadow-sm">
         <h5>Fast</h5>
         <p>Quick loading website.</p>
       </div>
     </div>
-
     <div class="col-md-4">
       <div class="p-4 border rounded shadow-sm">
         <h5>Responsive</h5>
         <p>Works on all devices.</p>
       </div>
     </div>
-
     <div class="col-md-4">
       <div class="p-4 border rounded shadow-sm">
         <h5>Modern</h5>
@@ -101,7 +95,6 @@
 <!-- CARDS -->
 <div class="container my-5">
   <div class="row g-4">
-
     <div class="col-md-4">
       <div class="card shadow-sm">
         <img src="https://images.pexels.com/photos/37025262/pexels-photo-37025262.jpeg" class="card-img-top">
@@ -111,7 +104,6 @@
         </div>
       </div>
     </div>
-
     <div class="col-md-4">
       <div class="card shadow-sm">
         <img src="https://images.pexels.com/photos/36397105/pexels-photo-36397105.jpeg" class="card-img-top">
@@ -121,7 +113,6 @@
         </div>
       </div>
     </div>
-
     <div class="col-md-4">
       <div class="card shadow-sm">
         <img src="https://images.pexels.com/photos/36397105/pexels-photo-36397105.jpeg" class="card-img-top">
@@ -147,18 +138,15 @@
 <div class="modal fade" id="loginModal">
   <div class="modal-dialog">
     <div class="modal-content">
-
       <div class="modal-header">
         <h5 class="modal-title">Login</h5>
         <button class="btn-close" data-bs-dismiss="modal"></button>
       </div>
-
       <div class="modal-body">
         <input type="email" class="form-control mb-3" placeholder="Email">
         <input type="password" class="form-control mb-3" placeholder="Password">
         <button class="btn btn-primary w-100">Login</button>
       </div>
-
     </div>
   </div>
 </div>
